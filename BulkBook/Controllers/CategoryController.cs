@@ -32,5 +32,61 @@ namespace BulkBookWeb.Controllers
             }
            return View(obj);
         }
+
+        public IActionResult Edit(int? id)
+        {
+            if(id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var categoryfromdb = _db.Categories.Find(id);
+
+            if (categoryfromdb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryfromdb);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var categoryfromdb = _db.Categories.Find(id);
+
+            if (categoryfromdb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryfromdb);
+        }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var categoryfromdb = _db.Categories.Find(id);
+
+            if (categoryfromdb == null)
+            {
+                return NotFound();
+            }
+            _db.Categories.Remove(categoryfromdb);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+        }
     }
 }
