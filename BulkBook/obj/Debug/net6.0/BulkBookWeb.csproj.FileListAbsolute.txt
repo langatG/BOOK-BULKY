@@ -542,7 +542,6 @@ D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.GeneratedMSBuil
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.AssemblyInfoInputs.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.AssemblyInfo.cs
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.csproj.CoreCompileInputs.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.MvcApplicationPartsAssemblyInfo.cs
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.MvcApplicationPartsAssemblyInfo.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.RazorAssemblyInfo.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.RazorAssemblyInfo.cs
@@ -557,3 +556,7 @@ D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\refint\BulkBookWeb.dll
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.pdb
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.genruntimeconfig.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\ref\BulkBookWeb.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.pdb

@@ -1,4 +1,4 @@
-using BulkBook.Data;
+using BulkBook.DataAccess;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
