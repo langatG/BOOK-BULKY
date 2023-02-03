@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface IUnitOfWork 
     {
         //T -> Category
-        void Update(Category obj);
+        ICategoryRepository Category { get; }
+        void Save();
     }
 }
