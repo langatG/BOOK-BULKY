@@ -560,3 +560,4 @@ D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.pdb
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBookWeb.MvcApplicationPartsAssemblyInfo.cs
