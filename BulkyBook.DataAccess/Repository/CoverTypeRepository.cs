@@ -19,8 +19,6 @@ namespace BulkyBook.DataAccess.Repository
         {
             _db = db;   
         }
-
-
         public void Update(CoverType obj)
         {
             _db.coverTypes.Update(obj);

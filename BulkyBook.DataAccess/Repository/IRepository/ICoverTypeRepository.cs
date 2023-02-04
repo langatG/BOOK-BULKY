@@ -12,6 +12,6 @@ namespace BulkyBook.DataAccess.Repository.IRepository
     public interface ICoverTypeRepository : IRepository<CoverType>
     {
         //T -> Category
-        void Update(Category obj);
+        void Update(CoverType obj);
     }
 }
