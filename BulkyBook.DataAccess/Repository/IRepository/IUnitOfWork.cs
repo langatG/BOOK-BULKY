@@ -1,4 +1,4 @@
-﻿using BulkBook.Models;
+﻿using BulkyBook.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +13,7 @@ namespace BulkyBook.DataAccess.Repository.IRepository
         //T -> Category
         ICategoryRepository Category { get; }
         ICoverTypeRepository CoverType { get; }
+        IProductRepository Product { get; }
         void Save();
     }
 }

@@ -1,11 +1,3 @@
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.csproj.AssemblyReference.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.GeneratedMSBuildEditorConfig.editorconfig
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.AssemblyInfoInputs.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.AssemblyInfo.cs
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.csproj.CoreCompileInputs.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.MvcApplicationPartsAssemblyInfo.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.RazorAssemblyInfo.cache
-D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.RazorAssemblyInfo.cs
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\appsettings.Development.json
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\appsettings.json
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkBook.staticwebassets.runtime.json
@@ -305,6 +297,8 @@ D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\refs\WindowsBase.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Humanizer.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\MessagePack.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -352,6 +346,7 @@ D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.VisualStudio.Web.
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\NuGet.Common.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\NuGet.Configuration.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -549,7 +544,15 @@ D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.dll
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BulkyBook.Models.pdb
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.csproj.AssemblyReference.cache
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.AssemblyInfoInputs.cache
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.AssemblyInfo.cs
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.csproj.CoreCompileInputs.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.MvcApplicationPartsAssemblyInfo.cs
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.MvcApplicationPartsAssemblyInfo.cache
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.RazorAssemblyInfo.cache
+D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkBook.RazorAssemblyInfo.cs
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\staticwebassets.build.json
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\staticwebassets.development.json
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

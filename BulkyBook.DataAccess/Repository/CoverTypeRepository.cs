@@ -1,5 +1,5 @@
-﻿using BulkBook.DataAccess;
-using BulkBook.Models;
+﻿using BulkyBook.DataAccess;
+using BulkyBook.Models;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using Microsoft.EntityFrameworkCore;
