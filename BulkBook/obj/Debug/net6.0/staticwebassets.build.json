@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "puQKkFFrPI3FD4DZwdMcTWzs5lqnpyKwrlVGyqW+V7s=",
+  "Hash": "g1OomnSQjnDdJKDovj5ypARecAUZVOn5GE3deMuuFhw=",
   "Source": "BulkyBook",
   "BasePath": "_content/BulkyBook",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\1675a1a2-67ec-49ca-9427-8686c0fdb955.jpg"
+    },
+    {
+      "Identity": "D:\\C# Project\\MVC\\BulkBook\\BulkBook\\wwwroot\\js\\company.js",
+      "SourceId": "BulkyBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# Project\\MVC\\BulkBook\\BulkBook\\wwwroot\\",
+      "BasePath": "_content/BulkyBook",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "D:\\C# Project\\MVC\\BulkBook\\BulkBook\\wwwroot\\js\\product.js",
