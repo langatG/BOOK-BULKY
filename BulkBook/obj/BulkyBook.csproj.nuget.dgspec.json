@@ -85,6 +85,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
@@ -314,9 +318,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.5.0, )"
             }
           },
           "imports": [

@@ -1,8 +1,10 @@
 ﻿using BulkyBook.Models;
 using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using BulkyBook.Utility;
 
 namespace BulkyBook.Controllers
 {
@@ -24,16 +26,51 @@ namespace BulkyBook.Controllers
 
             return View(productList);
         }
+
         public IActionResult Details(int productId)
         {
             ShoppingCart cartObj = new()
             {
                 Count = 1,
-                //ProductId = productId,
+                ProductId = productId,
                 Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId, includeProperties: "Category,CoverType"),
             };
+
             return View(cartObj);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId = claim.Value;
+
+            ShoppingCart cartFromDb = _unitOfWork.Shoppingcart.GetFirstOrDefault(
+                u => u.ApplicationUserId == claim.Value && u.ProductId == shoppingCart.ProductId);
+
+
+            if (cartFromDb == null)
+            {
+
+                _unitOfWork.Shoppingcart.Add(shoppingCart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                    _unitOfWork.Shoppingcart.GetAll(u => u.ApplicationUserId == claim.Value).ToList().Count);
+            }
+            else
+            {
+                _unitOfWork.Shoppingcart.IncrementCount(cartFromDb, shoppingCart.Count);
+                _unitOfWork.Save();
+            }
+
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
