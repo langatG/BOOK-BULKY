@@ -572,3 +572,8 @@ D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\refint\BulkyBook.dll
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkyBook.pdb
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\BulkyBook.genruntimeconfig.cache
 D:\C# Project\MVC\BulkBook\BulkBook\obj\Debug\net6.0\ref\BulkyBook.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\MailKit.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\MimeKit.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\SendGrid.dll
+D:\C# Project\MVC\BulkBook\BulkBook\bin\Debug\net6.0\StarkbankEcdsa.dll
