@@ -51,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -146,6 +150,9 @@
             "projectReferences": {
               "D:\\C# Project\\MVC\\BulkBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
                 "projectPath": "D:\\C# Project\\MVC\\BulkBook\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              },
+              "D:\\C# Project\\MVC\\BulkBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+                "projectPath": "D:\\C# Project\\MVC\\BulkBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
               }
             }
           }
